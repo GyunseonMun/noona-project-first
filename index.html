@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>숫자 맞추기 게임</h1>
-    <div id="result-area">결과가 나온다</div>
-    <input type="number" id="user-input"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <>
+    <h1 style="text-align: center">숫자 맞추기 게임</h1>
+
+    <div id="result-area" style="text-align: center;">
+      <img
+        class="result-img"
+        src="https://www.2runzzal.com/media/OWc0VmZrb0pYYlBUMWtSdnhtcWI0Zz09/zzal.gif"
+      /><br />
+      <h3 id="result-text">술이 들어간다 쭉쭈우욱~쭉쭉~~♬</h3>
+    </div>
+
+    <div id="chance-area" style="text-align: center; font-size: larger">
+    찬스는 5번
+    </div>
+    <div style="text-align: center;">
+      <br>
+    <input
+        id="user-input"
+        type="number"
+        placeholder="1~100까지 숫자를 입력해 주세요"
+        style="width: 5.6cm;""
+      />
     <button id="play-button">Go!</button>
+    <button id="reset-button">Reset</button>
+  </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
