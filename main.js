@@ -66,7 +66,7 @@ function play() {
 
   if(chances <1) {
     resultImg.src = "https://ogq-sticker-global-cdn-z01.afreecatv.com/sticker/17d0c31a99b1820/main.png"
-    resultText.textContent = resultText.textContent+"다음기회에!!!"
+    // resultText.textContent = resultText.textContent+"다음기회에!!!"
     gameOver = true
   }
 
